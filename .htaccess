@@ -1,0 +1,38 @@
+options +FollowSymLinks
+Options -Indexes
+RewriteEngine on
+
+IndexIgnore *
+
+ErrorDocument 400 /index.php
+ErrorDocument 401 /index.php
+ErrorDocument 403 /index.php
+ErrorDocument 404 /index.php
+ErrorDocument 500 /index.php
+
+RewriteRule ^/?(.*).lab?$ %{REQUEST_URI}/../index.php?p=$1 [QSA]
+
+RewriteRule ^/?mech-rs/?$ %{REQUEST_URI}/../../print.php?p=mech&t=rs [QSA]
+RewriteRule ^/?mech-tr/?$ %{REQUEST_URI}/../../print.php?p=mech&t=tr [QSA]
+RewriteRule ^/?mech.xml?$ %{REQUEST_URI}/../print.php?p=mech&t=xml [QSA]
+RewriteRule ^/?mech.mft?$ %{REQUEST_URI}/../print.php?p=mech&t=mft [QSA]
+
+RewriteRule ^/?vehicle-rs/?$ %{REQUEST_URI}/../../print.php?p=vehicle&t=rs [QSA]
+RewriteRule ^/?vehicle-tr/?$ %{REQUEST_URI}/../../print.php?p=vehicle&t=tr [QSA]
+RewriteRule ^/?vehicle.xml?$ %{REQUEST_URI}/../print.php?p=vehicle&t=xml [QSA]
+RewriteRule ^/?vehicle.mft?$ %{REQUEST_URI}/../print.php?p=vehicle&t=mft [QSA]
+
+RewriteRule ^/?aerotech-rs/?$ %{REQUEST_URI}/../../print.php?p=aerotech&t=rs [QSA]
+RewriteRule ^/?aerotech-tr/?$ %{REQUEST_URI}/../../print.php?p=aerotech&t=tr [QSA]
+RewriteRule ^/?aerotech.xml?$ %{REQUEST_URI}/../print.php?p=aerotech&t=xml [QSA]
+RewriteRule ^/?aerotech.mft?$ %{REQUEST_URI}/../print.php?p=aerotech&t=mft [QSA]
+
+RewriteRule ^/?protomech-rs/?$ %{REQUEST_URI}/../../print.php?p=protomech&t=rs [QSA]
+RewriteRule ^/?protomech-tr/?$ %{REQUEST_URI}/../../print.php?p=protomech&t=tr [QSA]
+RewriteRule ^/?protomech.xml?$ %{REQUEST_URI}/../print.php?p=protomech&t=xml [QSA]
+RewriteRule ^/?protomech.mft?$ %{REQUEST_URI}/../print.php?p=protomech&t=mft [QSA]
+
+RewriteRule ^/?installation-rs/?$ %{REQUEST_URI}/../../print.php?p=installation&t=rs [QSA]
+RewriteRule ^/?installation-tr/?$ %{REQUEST_URI}/../../print.php?p=installation&t=tr [QSA]
+RewriteRule ^/?installation.xml?$ %{REQUEST_URI}/../print.php?p=installation&t=xml [QSA]
+RewriteRule ^/?installation.mft?$ %{REQUEST_URI}/../print.php?p=installation&t=mft [QSA]

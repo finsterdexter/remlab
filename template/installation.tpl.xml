@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<structure>
+	<generator>
+		<program>{TITLE} {VERSION}</program>
+		<url>{URL}</url>
+		<date>{DATE_CREATED}</date>
+	</generator>
+
+	<structure>
+		<type>{TYPE}</type>
+		<technology>{TECHNOLOGY}</technology>
+		<rules>{LEVEL_NUM}</rules>
+		<edition>{EDITION_NUM}</edition>
+		<era>{ERA}</era>
+		<class>{CHASSIS}</class>
+		<cf>{TONS}</cf>
+		<cost>{TOTAL_COST}</cost>
+		<bv>{BATTLE_VALUE}</bv>
+	</structure>
+	
+	<features>
+		<hexes>{NUM_SIZE}</hexes>
+		<levels>{NUM_HEIGHT}</levels>
+		<basement>{NUM_BASEMENT}</basement>
+		<doors>{NUM_DOORS}</doors>
+		<turret>{TURRET_PRESENT}</turret>
+	</features>
+
+	<heatsinks>
+		<quantity>{HEATSINKS_STRUCT}</quantity>
+	</heatsinks>
+
+	<internal>
+		<crew>{CREW_NUM}</crew>
+	</internal>
+
+	<armor>
+		<type>Standard</type>
+		<sa>{ARMOR_B_NUM}</sa>
+	</armor>
+
+	<armament>
+{LISTWEAPONS_XML}
+	</armament>
+
+	<history>
+		<overview>{OVERVIEW}</overview>
+		<capabilities>{CAPABILITY}</capabilities>
+		<deployment>{DEPLOYMENT}</deployment>
+		<varients>{VARIENTS}</varients>
+		<battle>{HISTORY}</battle>
+		<warriors>{NOTABLE}</warriors>
+	</history>
+</structure>

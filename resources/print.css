@@ -1,0 +1,59 @@
+/* REMLAB Print Theme - Designed by Ted Balmer @ marchtwenty.com */
+
+body {
+	background: #FFFFFF;
+	color: #000000;
+	margin: 0;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 75%;
+}
+
+img {
+	float: right;
+}
+
+div#Header h1 {
+	font-weight: normal;
+	margin: 0;
+}
+
+div#Header p {
+	margin-top: 0;
+}
+
+div#Header span {
+	font-size: 50%;
+}
+
+div#Navigation, noscript {
+	display: none;
+}
+
+div#Bottom {
+	text-align: center;
+	color: #666666;
+	margin-top: 25px;
+}
+
+div#Totals table {
+	width: 100%;
+	margin: 10px 5px;
+}
+
+h3 {
+	margin-bottom: 2px;
+	border-bottom: 1px solid #DDDDDD;
+	font-weight: normal;
+}
+
+a {
+	color: #000000;
+}
+
+div#Totals input, div#Tabs {
+	display: none;
+}
+
+input, textarea, select {
+	font-size: 70%;
+}

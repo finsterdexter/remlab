@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fighter>
+	<generator>
+		<program>{TITLE} {VERSION}</program>
+		<url>{URL}</url>
+		<date>{DATE_CREATED}</date>
+	</generator>
+
+	<chassis>
+		<type>{TYPE}</type>
+		<technology>{TECHNOLOGY}</technology>
+		<rules>{LEVEL_NUM}</rules>
+		<edition>{EDITION_NUM}</edition>
+		<era>{ERA}</era>
+		<class>{CHASSIS}</class>
+		<tonnage>{TONS}</tonnage>
+		<cost>{TOTAL_COST}</cost>
+		<bv>{BATTLE_VALUE}</bv>
+	</chassis>
+
+	<engine>
+		<type>{ENGINE_TYPE}</type>
+		<thrust>{WALKING}</thrust>
+		<advanced>{VSTOL}</advanced>
+		<fuel>{FUEL}</fuel>
+	</engine>
+
+	<heatsinks>
+		<type>{HEATSINK_TYPE}</type>
+		<quantity>{HEATSINKS}</quantity>
+	</heatsinks>
+
+	<internal>
+		<si>{STRUCTURAL_INTEGRITY}</si>
+		<targerting>{TARGETING}</targerting>
+		<cargo>{CARGO_SPACE}</cargo>
+		<crew>{CREW_NUM}</crew>
+		<gunners>{GUNNERS_NUM}</gunners>
+		<passengers>{PASS_NUM}</passengers>
+		<lifeboat>{LIFEBOAT}</lifeboat>
+	</internal>
+
+	<armor>
+		<type>{ARMOR}</type>
+		<no>{ARMOR_N_NUM}</no>
+		<lw>{ARMOR_LW_NUM}</lw>
+		<rw>{ARMOR_RW_NUM}</rw>
+		<af>{ARMOR_A_NUM}</af>
+	</armor>
+	
+	<hardpoints>
+		<hp1>{HARDPOINT1}</hp1>
+		<hp2>{HARDPOINT2}</hp2>
+		<hp3>{HARDPOINT3}</hp3>
+		<hp4>{HARDPOINT4}</hp4>
+		<hp5>{HARDPOINT5}</hp5>
+		<hp6>{HARDPOINT6}</hp6>
+		<hp7>{HARDPOINT7}</hp7>
+		<hp8>{HARDPOINT8}</hp8>
+		<hp9>{HARDPOINT9}</hp9>
+		<hp10>{HARDPOINT10}</hp10>
+		<hp11>{HARDPOINT11}</hp11>
+		<hp12>{HARDPOINT12}</hp12>
+		<hp13>{HARDPOINT13}</hp13>
+		<hp14>{HARDPOINT14}</hp14>
+		<hp15>{HARDPOINT15}</hp15>
+		<hp16>{HARDPOINT16}</hp16>
+		<hp17>{HARDPOINT17}</hp17>
+		<hp18>{HARDPOINT18}</hp18>
+		<hp19>{HARDPOINT19}</hp19>
+		<hp20>{HARDPOINT20}</hp20>
+	</hardpoints>
+
+	<armament>
+{LISTWEAPONS_XML}
+	</armament>
+
+	<history>
+		<overview>{OVERVIEW}</overview>
+		<capabilities>{CAPABILITY}</capabilities>
+		<deployment>{DEPLOYMENT}</deployment>
+		<varients>{VARIENTS}</varients>
+		<battle>{HISTORY}</battle>
+		<warriors>{NOTABLE}</warriors>
+	</history>
+</fighter>

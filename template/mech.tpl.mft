@@ -1,0 +1,158 @@
+// Note: This is still incomplete, so it will not work with MegaMek. //
+
+Version:1.0
+{TYPE}
+{TYPE}
+
+Config:{LEGS}
+TechBase:{TECHNOLOGY}
+Era:{ERA}
+Rules Level:{LEVEL}
+
+Mass:{TONS}
+Engine:{ENGINERATING} {ENGINE_TYPE} ({TECHNOLOGY}) Engine
+Structure:{INTERNALSTRUCT}
+Myomer:{ADVANCED_MP}
+
+Heat Sinks:{HEATSINKS} {HEATSINK_TYPE}
+Walk MP:{WALKING}
+Jump MP:{JUMPING}
+
+Armor:{ARMOR}
+LA Armor:{ARMOR_LA_NUM}
+RA Armor:{ARMOR_RA_NUM}
+LT Armor:{ARMOR_LT_NUM}
+RT Armor:{ARMOR_RT_NUM}
+CT Armor:{ARMOR_CT_NUM}
+HD Armor:{ARMOR_H_NUM}
+LL Armor:{ARMOR_LL_NUM}
+RL Armor:{ARMOR_RL_NUM}
+RTL Armor:{ARMOR_LTR_NUM}
+RTR Armor:{ARMOR_LTR_NUM}
+RTC Armor:{ARMOR_CTR_NUM}
+
+Weapons:11
+Heavy Large Laser, Right Arm
+Heavy Medium Laser, Right Arm
+Heavy Small Laser, Right Arm
+Heavy Large Laser, Left Arm
+Heavy Medium Laser, Left Arm
+Heavy Small Laser, Left Arm
+Gauss Rifle, Right Torso
+Gauss Rifle, Left Torso
+Heavy Medium Laser, Right Torso (R)
+Heavy Medium Laser, Left Torso (R)
+AMS, Head
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLHeavyLargeLaser
+CLHeavyLargeLaser
+CLHeavyLargeLaser
+CLHeavyMediumLaser
+CLHeavyMediumLaser
+CLHeavySmallLaser
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLHeavyLargeLaser
+CLHeavyLargeLaser
+CLHeavyLargeLaser
+CLHeavyMediumLaser
+CLHeavyMediumLaser
+CLHeavySmallLaser
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+Clan Gauss Ammo
+Clan Gauss Ammo
+CLHeavyMediumLaser (R)
+CLHeavyMediumLaser (R)
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+CLGaussRifle
+Clan Gauss Ammo
+Clan Gauss Ammo
+CLHeavyMediumLaser (R)
+CLHeavyMediumLaser (R)
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Jump Jet
+CLAMS Ammo
+
+Head:
+Life Support
+Sensors
+Cockpit
+CLAntiMissileSystem
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Jump Jet
+CLAntiPersonnelPod
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Jump Jet
+CLAntiPersonnelPod
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+

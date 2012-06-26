@@ -1,0 +1,33 @@
+REMLAB Web Mech Designer
+------------------------------
+http://remlab.sourceforge.net/
+
+
+INSTALLATION
+
+Installation is relatively simple, as there are no major special needs for this application; other than an Apache server that can process PHP 4/5 scripts and the "RewriteEngine" on.
+
+Installing REMLAB on a web server should be as simple as uploading the 'remlab' folder/directory onto the desired web server. I'm still new at this, so it *might* not be as simple for some, but it should be.
+
+
+BROWSERS
+
+All of the most recent browsers seem to work properly with REMLAB.
+
+However, printing results vary from one browser and OS to the next. In my limited testing, Firefox seems to produce the the best results.
+
+
+INSPIRATION
+
+The main inspiration for the design of this program was from the old 'Btech' Mech designer created by Todd A. Anderson, with a few others thrown into the mix.
+
+
+CREDITS
+
+Developed by: http://www.marchtwenty.com/
+
+Information about Battletech can be found at: http://www.classicbattletech.com/
+
+
+------------------------------
+Modified on: April 11, 2009

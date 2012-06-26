@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<vehicle>
+	<generator>
+		<program>{TITLE} {VERSION}</program>
+		<url>{URL}</url>
+		<date>{DATE_CREATED}</date>
+	</generator>
+
+	<chassis>
+		<type>{TYPE}</type>
+		<technology>{TECHNOLOGY}</technology>
+		<rules>{LEVEL_NUM}</rules>
+		<edition>{EDITION_NUM}</edition>
+		<era>{ERA}</era>
+		<class>{CHASSIS}</class>
+		<tonnage>{TONS}</tonnage>
+		<cost>{TOTAL_COST}</cost>
+		<bv>{BATTLE_VALUE}</bv>
+	</chassis>
+
+	<engine>
+		<type>{ENGINE_TYPE}</type>
+		<cruise>{WALKING}</cruise>
+		<advanced>{ADVANCED_MP}</advanced>
+	</engine>
+
+	<heatsinks>
+		<quantity>{HEATSINKS}</quantity>
+	</heatsinks>
+
+	<internal>
+		<targerting>{TARGETING}</targerting>
+		<cargo>{CARGO_SPACE}</cargo>
+		<crew>{CREW_NUM}</crew>
+	</internal>
+
+	<special>
+		<front>{SP_FRONT}</front>
+		<top>{SP_TOP}</top>
+		<rear>{SP_REAR}</rear>
+		<sides>{SP_SIDES}</sides>
+	</special>
+
+	<armor>
+		<type>{ARMOR}</type>
+		<fr>{ARMOR_F_NUM}</fr>
+		<ls>{ARMOR_LS_NUM}</ls>
+		<rs>{ARMOR_RS_NUM}</rs>
+		<rr>{ARMOR_R_NUM}</rr>
+		<tu>{ARMOR_T_NUM}</tu>
+	</armor>
+
+	<armament>
+{LISTWEAPONS_XML}
+	</armament>
+
+	<history>
+		<overview>{OVERVIEW}</overview>
+		<capabilities>{CAPABILITY}</capabilities>
+		<deployment>{DEPLOYMENT}</deployment>
+		<varients>{VARIENTS}</varients>
+		<battle>{HISTORY}</battle>
+		<warriors>{NOTABLE}</warriors>
+	</history>
+</vehicle>

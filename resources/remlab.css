@@ -1,0 +1,585 @@
+/* REMLAB Default Theme - Designed by Ted Balmer @ marchtwenty.com  */
+
+body {
+	background: #798f61;
+	color: #000;
+	font-family: Verdana, Geneva, Arial, sans-serif ;
+	font-size: 75%;
+	margin: 0;
+}
+
+img, table {
+	border: 0;
+}
+
+p, table, form, div {
+	margin: 0;
+}
+
+ul {
+	margin-top: 0;
+}
+
+fieldset {
+	border: 1px solid #ffef82;
+	margin: 0;
+	text-align: center;
+	padding: 6px;
+}
+
+legend {
+	color: #625100;
+}
+
+optgroup {
+	font-style: normal;
+	color: #999;
+}
+
+option {
+	color: #000;
+}
+
+textarea {
+	font-family: Verdana, Helvetica, Arial, clean, sans-serif;
+	font-size: 90%;
+	width: 275px;
+	height: 80px;
+	padding: 1px;
+	margin: 5px;
+}
+
+noscript {
+	text-align: center;
+	color: #d00;
+	font-size: 120%;
+	display: block;
+}
+
+acronym {
+	cursor: help;
+	border-bottom: 1px dotted #dd3;
+}
+
+acronym:hover, label:hover {
+	color: #444;
+}
+
+a, a:visited {
+	color: #880;
+}
+
+a:hover, a:active {
+	color: #333;
+	text-decoration: none;
+}
+
+span.Tons {
+	color: #900;
+	margin-left: 7px;
+}
+
+span#PlusTen {
+	color: #333;
+	padding-left: 3px;
+}
+
+h3 {
+	color: #625100;
+	margin: 5px 10px 0 8px;
+	padding: 0;
+	font-weight: normal;
+	font-size: 130%;
+	letter-spacing: 1px;
+}
+
+h3.line {
+	padding-top: 5px;
+	border-bottom: 1px solid #fada00;
+}
+
+h3.padding {
+	padding-top: 5px;
+}
+
+img.Img {
+	float: right; 
+}
+
+div#Processing {
+	color: #ffe475;
+	position: absolute;
+	text-align: center;
+	width: 98%;
+	font-size: 120%;
+	z-index: 99;
+	top: 1px;
+	left: 1px;
+}
+
+div#Processing img {
+	border: 1px solid #ffe475;
+	margin: 0 auto;
+	width: 140px;
+	height: 16px;
+}
+
+div#L2, div#L3, div#L4, div#L5, div#L6, div#Weapons div, input#TonnageInput, input#EraInput, input#FactionInput {
+	display: none;
+}
+
+div#L1 table, div#L2 table, div#L3 table, div#L4 table {
+	padding: 0;
+	margin: 0;
+}
+
+div#L1 div div, div#L2 div, div#L3 table, div#L4 div div, div#L6 div, div#L5 div div {
+	background: #fffbda url(theme1/box_bg.png) repeat-y 0 0;
+	border: 1px solid #ffef82;
+	border-left: 2px solid #ffef82;
+	padding: 3px 5px;
+	margin: 0 10px 0 8px;
+	min-width: 350px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+div#L2 div {
+	padding: 9px;
+}
+
+div#L2 th input {
+	width: 66px;
+}
+
+div#T6, div#T6c {
+	overflow: auto;
+} 
+
+div.ammoRight {
+	width: 49%;
+	float: right;
+	margin-right: 10px;
+}
+
+div.ammoLeft {
+	width: 48%;
+	min-height: 350px;
+}
+
+div#allocate td, div#T6 td, div#T6c td {
+	vertical-align: top;
+}
+
+div#allocate {
+ 	overflow: auto;
+}
+
+div#Top {
+	background: #798f61 url(theme1/header_bg.png) repeat-x 0 0;
+	height: 88px;
+	min-width: 790px;
+}
+
+div#Bottom {
+	background: transparent url(theme1/footer_bg.png) repeat-x 0 0;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 110%;
+	height: 83px;
+}
+
+div#Bottom a, div#Bottom a:visited {
+	color: #fff;
+}
+
+div#Bottom div {
+	padding-top: 25px;
+	height: 60px;
+}
+
+div#Header {
+	background: transparent url(theme1/header_left.png) no-repeat 0 0;
+	float: left;
+	margin-left: 5px;
+	height: 80px;
+	width: 320px;
+	cursor: pointer;
+}
+
+div#Header h1 {
+	display: none;
+}
+
+div#Header div {
+	color: #996;
+	text-align: right;
+	margin-top: 5px;
+}
+
+div#Navigation {
+	background: transparent url(theme1/header_center.png) no-repeat 50% 0;
+	text-align: center;
+	height: 80px;
+	padding: 10px 20px 0 0;
+	font-size: 130%;
+	float: right;
+}
+
+div#Navigation dl {
+	margin: 0;
+}
+
+div#Navigation dd {
+	margin: 0 2px;
+	padding: 15px 0;
+	float: left;
+}
+
+div#Navigation a, div#Navigation a:visited {
+	color: #fff !important;
+	padding: 8px 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+div#Navigation a:hover {
+	border: 1px solid #EEE;
+	padding: 7px 14px;
+	text-shadow: 0 0 5px #EEE;
+}
+
+div#Tabs {
+	background: transparent url(theme1/tabs_bg.png) repeat-x 0 100%;
+	height: 46px;
+	padding-left: 10px;
+	font-size: 115%;
+}
+
+div#Tabs dl {
+	margin: 0;
+}
+
+div#Tabs dd {
+	margin: 1px;
+	padding: 9px 0;
+	float: left;
+}
+
+div#Tabs a, div#Tabs a:visited {
+	color: #333;
+	padding: 8px 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+div#Tabs a:hover {
+	color: #eee;
+	background: #aaa;
+	border: 1px solid #bbb;
+	padding: 6px 14px;
+}
+
+div#Totals {
+	padding-top: 2px;
+	margin: 0 0 2px 0;
+	background: #ffe475 url(theme1/totals_bg.png) repeat-x 0 0;
+	border-bottom: 1px solid #bd8b03;
+	border-top: 1px solid #bd8b03;
+	min-width: 750px;
+}
+
+div#Totals table {
+	width: 100%;
+}
+
+div#Totals th {
+	text-align: right;
+	font-weight: normal;
+	padding: 2px 10px;
+}
+
+div#Totals td {
+	font-weight: Bold;
+}
+
+div#Totals input {
+	width: 110px;
+}
+
+div#Stats {
+	margin: 4px 0 10px 14px;
+}
+
+span#txtClass {
+	font-size: 120%;
+	color: #666;
+}
+
+div#Content, div#Content_Text {
+	min-width: 750px;
+	min-height: 400px;
+	background: #fff;
+	padding-bottom: 6px;
+}
+
+div#Content_Text {
+	padding: 10px 15px;
+}
+
+div#Content_Text h3 {
+	margin: 12px 0 2px 0;
+}
+
+div#Content th {
+	text-align: right;
+	font-weight: normal;
+}
+
+div#Content_Text p {
+	margin: 2px 4px 8px 4px;
+}
+
+div.ColLeft {
+	float: left;
+}
+
+div.ColRight {
+	padding-top: 1px;
+	margin: 0 10px 0 50%;
+}
+
+div.ColLeft table, div.ColRight table {
+	margin: 2px 0 9px 2px;
+}
+
+div#weapTabs {
+	height: 40px;
+	font-size: 110%;
+}
+
+div#weapTabs dl {
+	margin: 0 0 0 6px;
+}
+
+div#weapTabs dd {
+	margin: 3px 1px;
+	padding: 9px 0;
+	float: left;
+}
+
+div#weapTabs dd a, div#weapTabs dd a:visited {
+	padding: 6px 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #000;
+	background: #eee;
+	border: 1px solid #ccc;
+}
+
+div#weapTabs dd a:hover {
+	color: #666;
+	background: #ccc;
+	border: 1px solid #ccc;
+}
+
+a#T8btn{
+	margin-left: 40px;
+}
+
+div#L3 select {
+	width: 45px;
+	font-size: 85%;
+}
+
+div#ISWeapons, div#ClanWeapons, div#L3 table ul, #WTP, #WT7Pc {
+	font-size: 85%;
+	margin-top: 3px;
+	min-height: 280px;
+}
+
+div#ISWeapons tr, div#ClanWeapons tr, #WTP tr, #WT7Pc tr {
+	background: #ffd;
+}
+
+div#ISWeapons tr:hover, div#ClanWeapons tr:hover, #WTP tr:hover, #WT7Pc tr:hover {
+	color: #996;
+}
+
+div#ISWeapons tr.TH, div#ClanWeapons tr.TH, #WTP tr.TH, #WT7Pc tr.TH {
+	background: transparent;
+}
+
+div#ISWeapons tr.TH:hover, div#ClanWeapons tr.TH:hover, #WTP tr.TH:hover, #WT7Pc tr.TH:hover {
+	color: #000;
+}
+
+div#T6c p, div#T6 p {
+	font-size: 125%;
+	text-align: center;
+	margin: 0;
+}
+
+div#L3 table {
+	width: 98%;
+	margin-bottom: 10px;
+}
+
+div#L3 table#CritSlots {
+	width: 37%;
+	border: 1px solid #ccc;
+	background: #fefefe;
+	min-width: 90px;
+	margin: 0 0 20px 0;
+}
+
+table#CritSlots td {
+	text-align: right;
+}
+
+table#CritSlots input {
+	width: 30px;
+	background: transparent;
+	border: 0;
+	padding: 0;
+	margin: 0 0 2px 4px;
+	font-weight: bold;
+}
+
+div#L3 th {
+	text-align: left;
+	font-weight: bold;
+}
+
+div#L3 table ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#L3 table p {
+	margin: 0;
+}
+
+div#Hardpoints select {
+	display: none;
+}
+
+div#Units {
+ 	height: 125px;
+}
+
+div#Units span {
+ 	display: none;
+}
+
+div#Units a {
+	width: 120px;
+	height: 120px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
+a.Mech {
+	background: #fff url(btn_units.png) repeat 0 0;
+}
+
+a.Mech:hover {
+	background: #fff url(btn_units.png) repeat -120px 0;
+}
+
+a.Vehicle {
+	background: #fff url(btn_units.png) repeat 0 -120px;
+}
+
+a.Vehicle:hover {
+	background: #fff url(btn_units.png) repeat -120px -120px;
+}
+
+a.Aerotech {
+	background: #fff url(btn_units.png) repeat 0 -240px;
+}
+
+a.Aerotech:hover {
+	background: #fff url(btn_units.png) repeat -120px -240px;
+}
+
+a.Protomech {
+	background: #fff url(btn_units.png) repeat 0 -360px;
+}
+
+a.Protomech:hover {
+	background: #fff url(btn_units.png) repeat -120px -360px;
+}
+
+a.Structure {
+	background: #fff url(btn_units.png) repeat 0 -480px;
+}
+
+a.Structure:hover {
+	background: #fff url(btn_units.png) repeat -120px -480px;
+}
+
+a.Dice {
+	background: #fff url(dice.png) no-repeat 50% 50%;
+}
+
+a.Dice img {
+	padding: 32px;
+}
+
+div.diceRoller {
+	margin: 4px;
+	padding: 6px;
+	background: #fffbda url(theme1/box_bg.png) repeat-y 0 0;
+	border: 1px solid #ffef82;
+}
+
+div.diRoll {
+	margin-top: 4px;
+	width: 225px;
+	height: 100px;
+	background: #fff;
+	border: 1px solid #ffef82;
+}
+
+div.diRoll div {
+	background: #fff url(dice2d6.png) repeat-x 0 0;
+	width: 100px;
+	height: 100px;
+}
+
+input.txtBoxClean {
+	border: 0;
+	background: transparent;
+	text-align: center;
+	font-size: 120%;
+}
+
+.Hidden {
+	display: none;
+}
+
+
+/* IE6 hacks */
+
+* html div.ammoRight {
+	margin-right: 0;
+}
+
+* html div#Navigation a:hover {
+	color: #333;
+}
+
+* html div#L5 div.ColRight div {
+	margin-left: 0;
+}
+
+* html div#Top {
+	background-color: #fff;
+}

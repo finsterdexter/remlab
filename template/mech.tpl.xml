@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mech>
+	<generator>
+		<program>{TITLE} {VERSION}</program>
+		<url>{URL}</url>
+		<date>{DATE_CREATED}</date>
+	</generator>
+
+	<chassis>
+		<type>{TYPE}</type>
+		<technology>{TECHNOLOGY}</technology>
+		<rules>{LEVEL_NUM}</rules>
+		<edition>{EDITION_NUM}</edition>
+		<era>{ERA}</era>
+		<class>{CHASSIS}</class>
+		<tonnage>{TONS}</tonnage>
+		<cost>{TOTAL_COST}</cost>
+		<bv>{BATTLE_VALUE}</bv>
+	</chassis>
+
+	<limbs>
+		<legs>{LEGS_NUM}</legs>
+		<leftarm>{LEFTARM}</leftarm>
+		<rightarm>{RIGHTARM}</rightarm>
+	</limbs>
+
+	<engine>
+		<type>{ENGINE_TYPE}</type>
+		<walking>{WALKING}</walking>
+		<advanced>{ADVANCED_MP}</advanced>
+	</engine>
+
+	<heatsinks>
+		<type>{HEATSINK_TYPE}</type>
+		<quantity>{HEATSINKS}</quantity>
+	</heatsinks>
+
+	<jumpjets>
+		<type>{JUMPJETS}</type>
+		<quantity>{JUMPING}</quantity>
+	</jumpjets>
+
+	<internal>
+		<is>{INTERNALSTRUCT}</is>
+		<gyro>{GYRO}</gyro>
+		<cockpit>{COCKPIT_TYPE}</cockpit>
+		<targerting>{TARGETING}</targerting>
+	</internal>
+
+	<armor>
+		<type>{ARMOR}</type>
+		<hd>{ARMOR_H_NUM}</hd>
+		<la>{ARMOR_LA_NUM}</la>
+		<ra>{ARMOR_RA_NUM}</ra>
+		<lt>{ARMOR_LT_NUM}</lt>
+		<ltr>{ARMOR_LTR_NUM}</ltr>
+		<rt>{ARMOR_RT_NUM}</rt>
+		<rtr>{ARMOR_RTR_NUM}</rtr>
+		<ct>{ARMOR_CT_NUM}</ct>
+		<ctr>{ARMOR_CTR_NUM}</ctr>
+		<ll>{ARMOR_LL_NUM}</ll>
+		<rl>{ARMOR_RL_NUM}</rl>
+	</armor>
+
+	<armament>
+{LISTWEAPONS_XML}
+	</armament>
+
+	<history>
+		<overview>{OVERVIEW}</overview>
+		<capabilities>{CAPABILITY}</capabilities>
+		<deployment>{DEPLOYMENT}</deployment>
+		<varients>{VARIENTS}</varients>
+		<battle>{HISTORY}</battle>
+		<warriors>{NOTABLE}</warriors>
+	</history>
+</mech>
